@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stormy</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form class="search-city">
+        <input
+          type="text"
+          id="text-search"
+          placeholder="Search your city here"
+        />
+        <input type="submit" id="button-search" value="Search" />
+      </form>
+      <br />
+      <span class="actual-icon"> 🌞 </span>
+      <header>Monday</header>
+      <h1>Amsterdam, North Holland</h1>
+      <h2 class="actual-temperature">18°C</h2>
+      <div class="col-sm-5 scale-change">
+        <span><a href="#" id="celsius-temp"> °C</a></span>
+        |<span> <a href="#" id="fahrenheit-temp"> °F</a></span>
+      </div>
+      <span>
+        Sunny
+        <br />
+        <small> 15% chance of rain </small>
+        <br />
+        <br />
+      </span>
+      <div class="row">
+        <div class="col-3">
+          Afternoon
+          <div class="today-icon">🌧</div>
+          <div class="today-temp">11℃/16℃</div>
+          <div class="description"><small>Heavy Rain</small></div>
+          <div class="humidity"><small>Humidity: 78%</small></div>
+        </div>
+        <div class="col-3">
+          Evening
+          <div class="today-icon">⛈</div>
+          <div class="today-temp">9℃/14℃</div>
+          <div class="description">
+            <small>Heavy Rain and occasional lightning</small>
+          </div>
+          <div class="humidity"><small>Humidity: 89%</small></div>
+        </div>
+        <div class="col-3">
+          Overnight
+          <div class="today-icon">☁</div>
+          <div class="today-temp">7℃/12℃</div>
+          <div class="description">
+            <small>Cloudy</small>
+          </div>
+          <div class="humidity"><small>Humidity: 49%</small></div>
+        </div>
+      </div>
+      <br />
+      <hr />
+      <div class="row">
+        <div class="col-sm">
+          Tuesday
+          <div class="icon">🌞</div>
+          <div class="temp">12℃/17℃</div>
+        </div>
+        <div class="col-sm">
+          Wednesday
+          <div class="icon">🌧</div>
+          <div class="temp">12℃/17℃</div>
+        </div>
+        <div class="col-sm">
+          Thursday
+          <div class="icon">⛅</div>
+          <div class="temp">12℃/17℃</div>
+        </div>
+        <div class="col-sm">
+          Friday
+          <div class="icon">⛅</div>
+          <div class="temp">12℃/17℃</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

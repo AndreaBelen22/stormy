@@ -1,0 +1,64 @@
+h1 {
+  color: #393b44;
+  font-size: 35px;
+}
+
+header {
+  font-size: 25px;
+}
+span {
+  font-size: 18px;
+}
+.actual-temperature {
+  color: #6886cc;
+  font-size: 24px;
+}
+.actual-time {
+  color: #393b44;
+  font-style: italic;
+  font-size: 15px;
+}
+.actual-icon {
+  font-size: 40px;
+}
+.search-city {
+  font-size: 16px;
+  padding-top: 14px;
+}
+.row {
+  align-items: center;
+  display: inline-flex;
+  margin: auto;
+}
+
+.col-3 {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.today-icon {
+  font-size: 25px;
+}
+.temp {
+  font-size: 12px;
+  color: #1e5f74;
+}
+.container {
+  background: rgb(229, 241, 244);
+  background: linear-gradient(
+    0deg,
+    rgba(229, 241, 244, 1) 12%,
+    rgba(179, 208, 200, 1) 99%
+  );
+  height: 750px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 40px 50px !important;
+  width: 800px;
+  border: 1px #1e5f74 solid;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
